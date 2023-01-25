@@ -1,0 +1,57 @@
+@media screen and (max-width: 851px) {
+
+  
+    .nav-mobile {
+        display: flex;
+    }
+
+    .nav-desktop {
+        display: none;
+    }
+
+    .header-banner {
+        padding-top: 50px;
+    }
+
+    .header-banner-content {
+        width: 100%;
+    }
+
+    .about-us {
+        padding: 30px 10px;
+    }
+
+    .about-us__card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-us__text-contentholder,
+    .about-us__card-imageholder {
+        min-width: 350px;
+        margin: 20px 0;
+    }
+    .foodcard__item {
+        margin: 20px 0;
+    }
+    .faqs__item {
+        min-width: 100%;
+    }
+
+    .faq__parallax {
+        flex-direction: column;
+    }
+
+   
+    footer {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .footer-icon__holder {
+        margin: 20px 0;
+    }
+
+    
+}
